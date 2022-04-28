@@ -37,7 +37,7 @@ const Login = () => {
                 <form onSubmit={handleUserSignIn} action="">
                     <div className="input-group">
                         <label htmlFor="email">Email</label>
-                        <input onBlur={handleEmailBlur} type="email" name='email' required />
+                        <input onBlur={handleEmailBlur} type="email" name='email' placeholder='email' required />
                     </div>
                     <div className="input-group">
                         <label htmlFor="password">Password</label>
